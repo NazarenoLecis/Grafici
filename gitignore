@@ -1,0 +1,114 @@
+# =========================
+# Python
+# =========================
+
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# =========================
+# Virtual environments
+# =========================
+
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# =========================
+# Jupyter Notebook
+# =========================
+
+.ipynb_checkpoints/
+
+# =========================
+# Data files locali
+# =========================
+
+data/
+raw/
+processed/
+output/
+outputs/
+figures/
+plots/
+
+*.csv
+*.xlsx
+*.xls
+*.parquet
+*.feather
+*.pkl
+*.pickle
+*.sqlite
+*.db
+
+# Eccezioni: mantieni eventuali file di esempio
+!example.csv
+!sample.csv
+!README.md
+
+# =========================
+# Immagini generate
+# =========================
+
+*.png
+*.jpg
+*.jpeg
+*.svg
+*.pdf
+
+# =========================
+# File temporanei
+# =========================
+
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# =========================
+# IDE / editor
+# =========================
+
+.vscode/
+.idea/
+
+# =========================
+# Credenziali e configurazioni locali
+# =========================
+
+.env
+.env.*
+*.key
+*.pem
+secrets.*
+credentials.*
+config.local.*
