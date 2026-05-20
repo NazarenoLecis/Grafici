@@ -1,28 +1,28 @@
-# Grafici
+# Public Economic Data Analysis
 
-Repository di notebook Python per produrre grafici e analisi descrittive su dati economici, produttivi, occupazionali, turistici ed energetici, con focus su Italia e confronto internazionale.
+This repository contains Python/Jupyter notebooks for processing public economic datasets and producing reproducible charts for policy-oriented analysis.
 
-## Contenuto del repository
+The focus is on Italy and international comparisons, covering productivity, firm structure, employment, tourism and energy prices.
 
-Il progetto contiene notebook Jupyter dedicati a diverse fonti statistiche e temi di analisi:
+## Repository content
 
-| Notebook | Tema |
+| Notebook | Topic |
 |---|---|
-| `Dimensione_VA_Imprese_eurostat.ipynb` | Dimensione delle imprese e valore aggiunto da dati Eurostat |
-| `Grafico_TFP_OECD.ipynb` | Produttività totale dei fattori da dati OECD |
-| `Occupazione_femminile.ipynb` | Occupazione femminile e confronti territoriali/internazionali |
-| `Serie_prezzi_energia_imprese.ipynb` | Prezzi di gas ed elettricità per il settore delle imprese |
-| `Turismo_eurostat.ipynb` | Indicatori turistici da dati Eurostat |
+| `Dimensione_VA_Imprese_eurostat.ipynb` | Firm size and value added using Eurostat data |
+| `Grafico_TFP_OECD.ipynb` | Total factor productivity using OECD data |
+| `Occupazione_femminile.ipynb` | Female employment and territorial/international comparisons |
+| `Serie_prezzi_energia_imprese.ipynb` | Gas and electricity prices for the business sector |
+| `Turismo_eurostat.ipynb` | Tourism indicators using Eurostat data |
 
-## Fonti dati
+## Data sources
 
-Il repository utilizza dati pubblici provenienti principalmente da:
+The notebooks use public data mainly from:
 
-- Eurostat, tramite download diretto o API Statistics;
-- OECD, tramite OECD Data Explorer o API SDMX;
-- Commissione Europea, Energy Prices and Costs Europe dashboard.
+- Eurostat, through direct downloads or APIs;
+- OECD, through OECD Data Explorer or SDMX APIs;
+- European Commission, Energy Prices and Costs Europe dashboard.
 
-Link utili:
+Useful links:
 
 ```text
 Eurostat API:
@@ -31,5 +31,5 @@ https://ec.europa.eu/eurostat/web/user-guides/data-browser/api-data-access/api-g
 OECD API:
 https://www.oecd.org/en/data/insights/data-explainers/2024/09/api.html
 
-Commissione Europea – Energy Prices and Costs Europe:
+European Commission – Energy Prices and Costs Europe:
 https://energy.ec.europa.eu/data-and-analysis/energy-prices-and-costs-europe/dashboard-energy-prices-eu-and-main-trading-partners-2024_en
