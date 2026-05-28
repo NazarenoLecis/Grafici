@@ -2,7 +2,7 @@
 
 This repository contains Python/Jupyter notebooks for processing public economic datasets and producing reproducible charts for policy-oriented analysis.
 
-The focus is on Italy and international comparisons, covering productivity, firm structure, employment, tourism and energy prices.
+The focus is on Italy, international comparisons and public European banking indicators, covering productivity, firm structure, employment, tourism, energy prices and supervisory banking statistics.
 
 ## Repository content
 
@@ -13,6 +13,7 @@ The focus is on Italy and international comparisons, covering productivity, firm
 | `female_employment_rate_europe_map.ipynb` | Female employment rate, age 20–64, mapped across European countries using Eurostat and GISCO data |
 | `business_energy_prices_europe.ipynb` | Gas and electricity prices for the business sector in Italy, France, Germany and Spain |
 | `value_added_by_macro_sector_italy_eurostat.ipynb` | Value added per person employed across Italian macro-sectors using Eurostat Structural Business Statistics |
+| `ecb_supervisory_banking_indicators.ipynb` | Aggregate ECB Supervisory Banking Statistics for SSM significant institutions |
 
 ## Data sources
 
@@ -20,6 +21,7 @@ The notebooks use public data mainly from:
 
 - Eurostat, through direct downloads or APIs;
 - OECD, through OECD Data Explorer or SDMX APIs;
+- ECB Data Portal, through the SDMX API;
 - European Commission, Energy Prices and Costs Europe dashboard;
 - GISCO, for geographical boundaries used in the employment map.
 
@@ -31,6 +33,9 @@ https://ec.europa.eu/eurostat/web/user-guides/data-browser/api-data-access/api-g
 
 OECD API:
 https://www.oecd.org/en/data/insights/data-explainers/2024/09/api.html
+
+ECB Data Portal API:
+https://data.ecb.europa.eu/help/getting-data-web-services-sdmx
 
 European Commission – Energy Prices and Costs Europe:
 https://energy.ec.europa.eu/data-and-analysis/energy-prices-and-costs-europe/dashboard-energy-prices-eu-and-main-trading-partners-2024_en
